@@ -1,0 +1,22 @@
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Old backend (kept for reference only, not deployed)
+backend/__pycache__/
+backend/dea_engine/__pycache__/
+backend/data/__pycache__/
+backend/.env
+backend/firebase-admin-key.json
+backend/venv/
