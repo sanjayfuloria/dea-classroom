@@ -23,7 +23,7 @@ function overallVerdict(pctEfficient, meanEff, orientation) {
 
   const meanPct = Math.round(meanEff * 1000) / 10;
   const wastePct = Math.round((1 - meanEff) * 1000) / 10;
-  const gainPct  = Math.round((1 / meanEff - 1) * 1000) / 10;
+  const gainPct  = wastePct;
 
   const meanPlain = meanEff
     ? `On average, the DMUs are operating at ${meanPct}% efficiency. ` +
