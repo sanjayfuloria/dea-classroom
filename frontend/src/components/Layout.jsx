@@ -7,6 +7,7 @@ const navItems = [
   { to: '/python',    label: 'Python Console',icon: '{}', roles: ['faculty','student'] },
   { to: '/sessions',  label: 'My Sessions',  icon: '⊟',  roles: ['faculty','student'] },
   { to: '/faculty',   label: 'Faculty Panel', icon: '◆',  roles: ['faculty'] },
+  { to: '/resources', label: 'Resources',     icon: '📁', roles: ['faculty','student'] },
 ]
 
 export default function Layout() {

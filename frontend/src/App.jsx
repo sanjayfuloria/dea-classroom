@@ -9,6 +9,7 @@ import ResultsPage     from './pages/ResultsPage'
 import PythonPage      from './pages/PythonPage'
 import SessionsPage    from './pages/SessionsPage'
 import FacultyPage     from './pages/FacultyPage'
+import ResourcesPage   from './pages/ResourcesPage'
 import Layout          from './components/Layout'
 
 function RequireAuth({ children }) {
@@ -39,6 +40,7 @@ export default function App() {
             <Route path="results/:id"      element={<ResultsPage />} />
             <Route path="python"           element={<PythonPage />} />
             <Route path="sessions"         element={<SessionsPage />} />
+            <Route path="resources"        element={<ResourcesPage />} />
             <Route path="faculty" element={
               <RequireFaculty><FacultyPage /></RequireFaculty>
             } />
